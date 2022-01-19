@@ -82,20 +82,6 @@ nav div a:hover{
     border-radius: 10px;
 }
 
-/* The main image styling at the top of the webpage */
-.hero {
-    width: 100%;
-    height: 10vw;
-    display: flex;
-    background-color: black;
-    
-}
-
-.hero img{
-    object-fit:scale-down;
-    width: 100%;
-}
-
 /* This is my container class which defines the overall sizing and style of each section element */
 .container{
     display: flex;
