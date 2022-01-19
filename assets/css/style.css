@@ -23,7 +23,7 @@ body{
 }
 
 /* Making the p tag larger */
-p{
+p, ul, li{
     font-size: large;
 }
 
@@ -170,6 +170,7 @@ article{
     border-radius: 20px;
 }
 
+/* Styling for the title on top of each project image */
 .project-title{
     position: absolute;
     bottom: 30px;
@@ -180,6 +181,18 @@ article{
     border-bottom-right-radius: 20px;
 }
 
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.social img{
+    max-width: 8vw;
+    max-height: 8vw;
+}
+
+/* Footer styling */
 footer{
     display: flex;
     width: 100%;
@@ -192,6 +205,7 @@ footer{
     padding-top: 40px;
 }
 
+/* Aligning the footer navigation elements */
 footer nav {
     justify-content: center;
 }
